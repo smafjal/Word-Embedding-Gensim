@@ -93,8 +93,8 @@ def main():
     print "Model Saved On: ",saved_model_path
     output_test(model,test_path)
 
-    print "Load the model & retrain it by new data"
-    model = retrain_model(saved_model_path,new_corpus_path)
+    # print "Load the model & retrain it by new data"
+    # model = retrain_model(saved_model_path,new_corpus_path)
 
 if __name__=="__main__":
     main()
